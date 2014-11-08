@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace trader.Core.DataType
 {
-    class EnumTypes
+    public class EnumTypes
     {
+
+        public enum ColumnType
+        {
+            header = 2,
+            body = 4
+        };
+
     }
 }
