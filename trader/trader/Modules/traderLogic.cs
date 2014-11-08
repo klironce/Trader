@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace trader.Modules
 {
-    class traderLogic
+    public class traderLogic
     {
     }
 }

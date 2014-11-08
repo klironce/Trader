@@ -6,10 +6,11 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 
 using trader.Modules;
+using trader.Core.DataType;
 
 namespace trader.Core
 {
-    class init
+    public class init
     {
 
         public dataSystem DS;
