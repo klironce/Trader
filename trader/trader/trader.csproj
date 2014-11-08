@@ -80,6 +80,9 @@
     <Compile Include="Modules\dataSystem.cs" />
     <Compile Include="Modules\logSystem.cs" />
     <Compile Include="Modules\traderLogic.cs" />
+    <Compile Include="Net\Load\HtmlTableParse.cs" />
+    <Compile Include="Net\Load\tableNetLoad.cs" />
+    <Compile Include="Net\Net.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Gui\mainMenuView.resx">
@@ -108,7 +111,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Net\Load\" />
     <Folder Include="Net\Resived\" />
     <Folder Include="Net\Send\" />
   </ItemGroup>

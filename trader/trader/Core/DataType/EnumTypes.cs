@@ -15,5 +15,12 @@ namespace trader.Core.DataType
             body = 4
         };
 
+        public enum SiteType
+        {
+            Cryptsy = 0,
+            Vircurex = 1,
+            Bitfinex = 2
+        };
+
     }
 }
