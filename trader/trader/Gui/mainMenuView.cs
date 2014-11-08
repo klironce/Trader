@@ -8,12 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using trader.Core;
+
 namespace trader
 {
     public partial class mainMenuView : Form
     {
-        public mainMenuView()
+
+        public init _init;
+
+        public mainMenuView(ref init _init)
         {
+            this._init = _init;
             InitializeComponent();
         }
     }
