@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace trader
 {
-    public partial class Form1 : Form
+    public partial class mainMenuView : Form
     {
-        public Form1()
+        public mainMenuView()
         {
             InitializeComponent();
         }

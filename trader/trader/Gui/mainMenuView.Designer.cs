@@ -1,6 +1,6 @@
 ﻿namespace trader
 {
-    partial class Form1
+    partial class mainMenuView
     {
         /// <summary>
         /// Требуется переменная конструктора.
