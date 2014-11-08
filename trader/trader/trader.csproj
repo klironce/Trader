@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Desktop\BtceApi-master\BtceApi\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,14 +50,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Core\DataType\accountData.cs" />
+    <Compile Include="Core\DataType\EnumTypes.cs" />
+    <Compile Include="Core\DataType\grafeData.cs" />
+    <Compile Include="Core\DataType\logString.cs" />
+    <Compile Include="Core\DataType\sbTableData.cs" />
+    <Compile Include="Core\DataType\tableData.cs" />
+    <Compile Include="Core\DataType\tableRow.cs" />
+    <Compile Include="Core\DataType\transactionData.cs" />
+    <Compile Include="Core\FileSystem\fileEncoder.cs" />
+    <Compile Include="Core\FileSystem\fileFunction.cs" />
+    <Compile Include="Core\init.cs" />
+    <Compile Include="Core\Logic\mathLoginc.cs" />
+    <Compile Include="Core\Logs\Log.cs" />
+    <Compile Include="Core\Logs\logFile.cs" />
+    <Compile Include="Gui\mainMenuView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Gui\mainMenuView.Designer.cs">
+      <DependentUpon>mainMenuView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gui\Widjet\accountView.cs" />
+    <Compile Include="Gui\Widjet\grafeView.cs" />
+    <Compile Include="Gui\Widjet\logsView.cs" />
+    <Compile Include="Gui\Widjet\tableVIew.cs" />
+    <Compile Include="Gui\Widjet\transactionView.cs" />
+    <Compile Include="Modules\dataSystem.cs" />
+    <Compile Include="Modules\logSystem.cs" />
+    <Compile Include="Modules\traderLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gui\mainMenuView.resx">
+      <DependentUpon>mainMenuView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -73,6 +104,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Net\Load\" />
+    <Folder Include="Net\Resived\" />
+    <Folder Include="Net\Send\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
