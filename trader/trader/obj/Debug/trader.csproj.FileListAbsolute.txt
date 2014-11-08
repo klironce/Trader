@@ -1,1 +1,13 @@
 C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\trader.exe.config
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\trader.exe
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\trader.pdb
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Stas\Documents\Trader\trader\trader\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.csprojResolveAssemblyReference.cache
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.mainMenuView.resources
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.Properties.Resources.resources
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.csproj.GenerateResource.Cache
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.exe
+C:\Users\Stas\Documents\Trader\trader\trader\obj\Debug\trader.pdb

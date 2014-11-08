@@ -1,4 +1,5 @@
 ﻿using System;
+using trader.Core;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace trader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var initialize = new init();
+            Application.Run(new mainMenuView(ref initialize));
         }
     }
 }
