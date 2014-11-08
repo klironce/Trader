@@ -17,9 +17,9 @@ namespace trader
 
         public init _init;
 
-        public mainMenuView(ref init _init)
+        public mainMenuView(ref init _initialize)
         {
-            this._init = _init;
+            this._init = _initialize;
             InitializeComponent();
         }
     }

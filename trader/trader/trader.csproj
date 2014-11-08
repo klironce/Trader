@@ -55,8 +55,10 @@
     <Compile Include="Core\DataType\grafeData.cs" />
     <Compile Include="Core\DataType\logString.cs" />
     <Compile Include="Core\DataType\sbTableData.cs" />
+    <Compile Include="Core\DataType\tableColumn.cs" />
     <Compile Include="Core\DataType\tableData.cs" />
     <Compile Include="Core\DataType\tableRow.cs" />
+    <Compile Include="Core\DataType\tableValue.cs" />
     <Compile Include="Core\DataType\transactionData.cs" />
     <Compile Include="Core\FileSystem\fileEncoder.cs" />
     <Compile Include="Core\FileSystem\fileFunction.cs" />
